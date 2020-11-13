@@ -235,6 +235,8 @@ def funcionamiento ():
             listaSeleccion [random.randrange (0,((len(listaSeleccion))-1))] = maxProbabilidad
         for j in range (int ((len(listaSeleccion))/30)):
             listaSeleccion [random.randrange (0,((len(listaSeleccion))-1))] = segMaxProbabilidad
+           
+        # Se elige el cromosoma
 
         seleccionClasificacion = listaSeleccion [random.randrange (0,((len(listaSeleccion))-1))]
         indice = valorProbCopia.index (seleccionClasificacion)
